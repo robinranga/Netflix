@@ -1,0 +1,700 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.tophead{
+    background-image: url(assets/images/hero.jpg);
+    background-size: max(1400px,100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    
+}
+
+.tophead .opacity{
+    background-color: black;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.79;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82vw;
+    margin: auto;
+    padding-top: 25px;
+    position: relative;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 2;
+    
+    
+}
+
+.navbuttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.langselect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 110px;
+    height: 35px;
+}
+
+.langselect select{
+    outline: none;
+    background-color: rgb(24, 21, 21);
+    border: none;
+    font-weight: bold;
+    height: fit-content;
+
+}
+
+.signInButton button{
+    outline: none;
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+
+
+}
+
+main {
+    position: relative;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:130px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 15px;
+
+}
+
+main .head1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+main .head2 p{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+main .head3 p{
+    padding-top: 15px;
+    text-align: center;
+
+}
+.bttns{
+    display: flex;
+    gap: 10px;
+}
+
+.bttns input{
+    background-color: transparent;
+    width: 330px;
+    height: 55px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.bttns button{
+    background-color: red;
+    width: 200px;
+    height: 55px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.gradient-effect{
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -30px;
+}
+
+.line-effect{
+    width: 110%;
+    height: 150px;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    position: relative;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-left: -5%;
+}
+
+.background-effect{
+    width: 110%;
+    height: 150px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-left: -5%;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    position: absolute;
+    top: 4px;
+
+
+}
+
+.secondary{
+    height: 400px;
+}
+
+.content{
+    padding-left: 80px;
+    position: relative;
+    top: -10px;
+
+}
+
+.text1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.filter{
+    display: flex;
+    gap: 24px;
+}
+
+.filter select{
+    background-color: #0f0f0f;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    appearance: none;
+}
+
+
+.slt1 , .slt2{
+    border: 1px grey solid;
+    background-color: #0f0f0f;
+    padding: 8px 17px;
+    border-radius: 5px;
+
+}
+
+.movies-list{
+    display: flex;
+    width: 80vw;
+    gap: 40px;
+    flex-wrap: nowrap;
+    overflow-x:scroll;
+    margin-left: 100px;
+    margin-top: 20px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.mov{   
+    flex-shrink: 0;
+    height: 202px;
+    width: 140px;
+    background-size: contain;
+    border-radius: 8px;
+    
+}
+
+.mov1{
+    background-image: url(/assets/images/mov1.webp);
+}
+.mov2{
+    background-image: url(/assets/images/mov2.webp);
+}
+.mov3{
+    background-image: url(/assets/images/mov3.webp);
+}
+.mov4{
+    background-image: url(/assets/images/mov4.webp);
+}
+.mov5{
+    background-image: url(/assets/images/mov5.webp);
+}
+.mov6{
+    background-image: url(/assets/images/mov6.webp);
+}
+.mov7{
+    background-image: url(/assets/images/mov7.webp);
+}
+.mov8{
+    background-image: url(/assets/images/mov8.webp);
+}
+.mov9{
+    background-image: url(/assets/images/mov9.webp);
+}
+.mov10{
+    background-image: url(/assets/images/mov10.webp);
+}
+
+.movies-list::-webkit-scrollbar {
+    display: none; 
+}
+
+.cards{
+    width: 87vw;
+    margin: auto;
+    margin-top: 62px;
+}
+
+.card-text{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 17px;
+    
+}
+
+.card-holder{
+display: flex;
+flex-wrap: wrap;
+row-gap: 14px;
+column-gap: 14px;
+
+}
+
+.card{
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    height: 150px;
+    width: 43.5%;
+    border-radius: 15px;
+    padding: 20px 22px;
+    position: relative;
+}
+
+.card h4{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 13px;
+}
+
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card svg{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    clear: both;
+}
+
+
+.faq{
+    width: 87vw;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.faq-text{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.ques{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.ques div{
+    background-color: #2d2d2d;
+    padding: 25px 20px;
+    padding-right: 0;
+    position: relative;
+}
+
+.ques div svg{
+    position: absolute;
+    right: 20px;
+    font-weight: 100;
+}
+
+.second-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.log-text{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.sec-bttns input{
+    width: 450px;
+    background-color: rgb(22, 21, 21);
+}
+
+.sec-bttns button{
+    width: 180px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.99);
+    
+}
+
+.last *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.last{
+    width: 85vw;
+    margin: auto;
+    margin-top: 70px;
+
+}
+
+.last1{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.last2 ul{
+    list-style:none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 15px;
+
+
+}
+
+.last3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.last3 select{
+    color: white;
+    background-color: black;
+    
+}
+.langg2{
+    width: 130px;
+}
+.last4{
+    margin-top: 50px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Querries */
+
+
+@media screen and (width <= 960px){
+    main{
+        width: 470px;
+    }
+    .navbar{
+        width: 93vw;
+    }
+    .navbar img{
+        width: 90px;
+    }
+    main .head1 h1{
+        font-size: 32px;
+    }
+    main .head2 p{
+        font-weight: 600;
+    }
+    main{
+        gap: 6px;
+    }
+    .bttns input{
+        width: 250px;
+    }
+    .bttns button{
+        width: 174px;
+    }
+    .langselect{
+        height: 24.32px;
+    }
+    .navbuttons{
+        height: 24.32px;
+    }
+    .background-effect , .line-effect{
+        width: 150%;
+        margin-left: -25%;
+
+    }
+    .filter{
+        flex-direction: column;
+        width: 100%;
+        gap: 14px;
+    }
+    .text1{
+        font-size: 18px;
+    }
+    .content{
+        margin: auto;
+        top: -30px;
+        padding-left: 0;
+        width: 94vw;
+    }
+    .slt1 ,.slt2{
+        display: flex;
+        border: 1px solid rgb(81, 78, 78);
+        border-radius: 4px;
+        padding: 6px 17px;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .movies-list{
+        width: 86vw;
+        margin-left: 0;
+        margin: auto;
+        gap: 20px;
+    }
+    .mov{
+        height: 160px;
+        width: 120px;
+    }
+
+    .card-holder{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .card{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .card-text{
+        font-size: 18px;
+    }
+    .faq,.cards{
+        width: 94vw;
+    }
+    .faq-text{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .ques{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .sec-bttns button{
+        font-size: 18px;
+    }
+
+    .sec-bttns input{
+        width: 72vw;
+    }
+
+    .sec-bttns{
+        display: flex;
+        width: 90vw;
+    }
+
+    .langg2{
+        height: 36.32px;
+    }
+    .last2 ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+}
+
+
+
+
+@media screen and (width <= 600px){
+    main{
+        width: 90vw;
+    }
+    .bttns{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bttns input{
+        width: 90vw;
+        height: 45px;
+    }
+    .bttns button{
+        width: 160px;
+        height: 45px;
+        
+    }
+    .langselect{
+        width: 60px;
+        
+    }
+    .langselect select{
+        width: 20px;
+    }
+    .background-effect , .line-effect{
+        width: 160%;
+        margin-left: -30%;
+
+    }
+
+    .sec-bttns button{
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+
+    .langg2{
+        width: 131.33px;
+        
+    }
+    .langg2 select{
+        width: 70px;
+    }
+    .last2 ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+
+
+
+@media screen and (width >= 1280px){
+    .navbar{
+        width: 75vw;
+    }
+    main{
+        width: 570px;
+        margin-top:80px;
+    }
+    main .head1 h1{
+        font-size: 56px;
+        font-weight: bolder;
+    }
+    main .head2 p{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .content{
+        padding-left: 140px;
+    }
+    .movies-list{
+        width: 73vw;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .mov{
+        height: 252px;
+        width: 180px;
+    }
+
+    .cards{
+        width: 78vw;
+    }
+
+    .card-holder{
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        height: 270px;
+    }
+
+    .faq{
+        width: 78vw;
+    }
+
+    .sec-bttns input{
+        width: 580px;
+    }
+
+    .sec-bttns button{
+        width: 200px;
+    }
+    .last{
+        width: 78vw;
+    }
+    .last2 ul{
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+}
+
+@media screen and (width <= 800px){
+    .card{
+        height: 200px;
+    }
+}
