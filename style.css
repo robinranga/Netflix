@@ -235,34 +235,34 @@ main .head3 p{
 }
 
 .mov1{
-    background-image: url(/assets/images/mov1.webp);
+    background-image: url(./assets/images/mov1.webp);
 }
 .mov2{
-    background-image: url(/assets/images/mov2.webp);
+    background-image: url(./assets/images/mov2.webp);
 }
 .mov3{
-    background-image: url(/assets/images/mov3.webp);
+    background-image: url(./assets/images/mov3.webp);
 }
 .mov4{
-    background-image: url(/assets/images/mov4.webp);
+    background-image: url(./assets/images/mov4.webp);
 }
 .mov5{
-    background-image: url(/assets/images/mov5.webp);
+    background-image: url(./assets/images/mov5.webp);
 }
 .mov6{
-    background-image: url(/assets/images/mov6.webp);
+    background-image: url(./assets/images/mov6.webp);
 }
 .mov7{
-    background-image: url(/assets/images/mov7.webp);
+    background-image: url(./assets/images/mov7.webp);
 }
 .mov8{
-    background-image: url(/assets/images/mov8.webp);
+    background-image: url(./assets/images/mov8.webp);
 }
 .mov9{
-    background-image: url(/assets/images/mov9.webp);
+    background-image: url(./assets/images/mov9.webp);
 }
 .mov10{
-    background-image: url(/assets/images/mov10.webp);
+    background-image: url(./assets/images/mov10.webp);
 }
 
 .movies-list::-webkit-scrollbar {
